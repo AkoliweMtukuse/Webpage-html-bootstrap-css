@@ -1,371 +1,469 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>my navbar</title>
-    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="./style/main.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 
+  <title>my navbar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style/main.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 </head>
+
 <body>
   <div class="header">
-<h1>WORLD WIDE WAVES</h1>
+    <h1>WORLD WIDE WAVES</h1>
   </div>
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <!-- NAVBAR -->
 
-        <a class="navbar-brand  " href="#">World Wide Waves</a>
-        <button class="navbar-toggler" type="button bg-secondary" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artist</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Genre
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">RnB</a>
-                <a class="dropdown-item" href="#">Hip Hop</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Pop Music</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          </form>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+    <a class="navbar-brand  " href="#">World Wide Waves</a>
+    <button class="navbar-toggler" type="button bg-secondary" data-toggle="collapse"
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <a class="nav-link" href="file:///C:/Users/User/Documents/projects/project_1/index2.html">Home</span>
+        </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Artists
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Genres
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">RnB</a>
+            <a class="dropdown-item" href="#">Hip Hop</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Pop Music</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+</body>
+</form>
+</div>
+</nav><br>
+<!-- CARDS -->
+
+<body>
+  <div class="main">
+
+    <div class="row">
+
+      <div class="col">
+        <!--ADD CARD -->
+        <div class="cards">
+          <div class="image">
+            <img src="./images/unknown_person7.png" />
+          </div>
+          <div class="title">
+            <h1>Add Artist</h1>
+          </div>
+          <div class="des ">
+            <p>Add your own artist right here<br>
+              (add first name and last name)<br>
+              (add cellphone number)<br>
+              (add email address)</p>
+            <button data-toggle="modal" data-target="#add-artist">add your own</button>
+          </div>
         </div>
-    </nav>
+      </div>
 
-   <br> 
-   <!-- CARDS1 -->
-<div class="container">
-<div class="card-deck">
-  <div class="card">
-    <img src="./images/artist-concert.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Dave Miller</h5>
-      <p class="card-text">David Milestone Jnr. is an american song writer, producer and rapper for ATL Records (Atlanta Record Label)  which is actually based in New York ... </p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted">About Artist</small>
-   <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-  More
-</button>
+      <div class="col">
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-   
-    </div>
-  </div>
+        <!-- CARD1-->
+        <div class="cards">
+          <div class="image">
+            <img src="./images/artist-nigga.jpg" />
+          </div>
+          <div class="title">
+            <h1>Yung Sellino</h1>
+          </div>
+          <div class="des ">
+            <p>Dwayne Sellan Ferguson born in Florida USA America..<br>
+              yungsellino@gmail.com<br>
+              (760) 653-5301</p>
+            <button class="more" data-toggle="modal" data-target="#exampleModalLong1">more</button>
+            <button class="delete" data-toggle="modal" data-target="#delete-btn">delete</button>
+          </div>
+        </div>
 
+      </div>
+      <div class="col">
+        <!-- CARD2 -->
+        <div class="cards">
+          <div class="image">
+            <img src="./images/car.jpg" />
+          </div>
+          <div class="title">
+            <h1>Freddy D</h1>
+          </div>
+          <div class="des ">
+            <p>Fernardo Darmino Jones ia an rapper and producer from Compton...<br>
+              freddyd@gmail.com<br>
+              (412) 287-4922</p>
+            <button class="more" data-toggle="modal" data-target="#exampleModalLong2">more</button>
+            <button class="delete" data-toggle="modal" data-target="#delete-btn">delete</button>
+          </div>
+        </div>
+      </div>
 
-  <div class="card">
-    <img src="./images/artist-nigga.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Yung Sellino</h5>
-      <p class="card-text">Dwayne Sellan Ferguson born in Florida, USA  by Marther Ferguson , he is a well-known rapper in Florida for his notorious songs 'Bentley Sace', 'Guccy LV'  (from 'Came Far') which were released under SLUGS Ent...</p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted">About Artist</small>
-    <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-  More
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+      <div class="col">
+        <!-- CARD3 -->
+        <div class="cards">
+          <div class="image">
+            <img src="./images/Lakers.jpg" />
+          </div>
+          <div class="title">
+            <h1>Marly</h1>
+          </div>
+          <div class="des ">
+            <p>Aubrey Marland Graham is a Canadian rapper and songwriter<br>
+              marly@gmail.com<br>
+              (404) 665-3410</p>
+            <button class="more" data-toggle="modal" data-target="#exampleModalLong3">more</button>
+            <button class="delete" data-toggle="modal" data-target="#delete-btn">delete</button>
+          </div>
+        </div>
       </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
 
     </div>
-  </div>
 
-
-  <div class="card">
-    <img src="./images/artist-yellow.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Frank Jones</h5>
-      <p class="card-text">Fernardo Jones , he's a song writer , rapper from Compton  well-known for his album 'KOMPT'  which broke the Guiness Records for the most fast selling album to ever...</p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted">About Artist</small>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-More
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+    <div class="row">
+      <div class="col">
+        <!-- CARD4-->
+        <div class="cards">
+          <div class="image">
+            <img src="./images/lights.jpg" />
+          </div>
+          <div class="title">
+            <h1>Jimmy Harns</h1>
+          </div>
+          <div class="des ">
+            <p>Jim Terrell Harns is an Deejay and producer from the UK...<br>
+              (524) 730-2768<br>
+              jimmyharns@gmail.com</p>
+            <button class="more" data-toggle="modal" data-target="#exampleModalLong4">more</button>
+            <button class="delete" data-toggle="modal" data-target="#delete-btn">delete</button>
+          </div>
+        </div>
       </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
 
-    </div>
-  </div>
-
-
-  <div class="card">
-    <img src="./images/drake.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Drake</h5>
-      <p class="card-text">Aubrey Drake Graham is a Canadian rapper, singer, songwriter, producer, actor, and businessman. Drake initially gained recognition as an actor on the teen drama television series Degrassi: The Next ...</p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted">About Artist</small>
-    <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-  More
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+      <div class="col">
+        <!-- CARD5 -->
+        <div class="cards">
+          <div class="image">
+            <img src="./images/Benz.jpg" />
+          </div>
+          <div class="title">
+            <h1>Riley Willirn</h1>
+          </div>
+          <div class="des ">
+            <p>Ronald Woods is an American rapper and songwriter..<br>
+              (631) 960-7178<br>
+              rileywillirn@gmail.com </p>
+            <button class="more" data-toggle="modal" data-target="#exampleModalLong5">more</button>
+            <button class="delete" data-toggle="modal" data-target="#delete-btn">delete</button>
+          </div>
+        </div>
       </div>
-      <div class="modal-body">
-        ...
+
+      <div class="col">
+        <!-- CARD6 -->
+        <div class="cards">
+          <div class="image">
+            <img src="./images/Studio.jpg" />
+          </div>
+          <div class="title">
+            <h1>Kyle</h1>
+          </div>
+          <div class="des ">
+            <p>Keanan Raqhid Render is an American rapper, and a singer <br>
+              (631) 960-750<br>
+              kyle@gmail.com<br></p>
+            <button class="more" data-toggle="modal" data-target="#exampleModalLong6">more</button>
+            <button class="delete" data-toggle="modal" data-target="#delete-btn">delete</button>
+          </div>
+        </div>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+
+      <div class="col">
+        <!-- CARD7 -->
+        <div class="cards">
+          <div class="image">
+            <img src="./images/Purple.jpg" />
+          </div>
+          <div class="title">
+            <h1>William Taylor</h1>
+          </div>
+          <div class="des ">
+            <p>Wilingson William Taylor Jnr. is an American rapper...<br>
+              (917) 475-0053<br>
+              wtaylor@gmail.com</p>
+            <button class="more" data-toggle="modal" data-target="#exampleModalLong7">more</button>
+            <button class="delete" data-toggle="modal" data-target="#delete-btn">delete</button>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
 
     </div>
   </div>
-
-
-</div>
-</div>
-
-<br>
-<!-- CARDS2 -->
-<div class="container">
-<div class="card-deck">
-  <div class="card">
-    <img src="./images/playboi-carti.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Playboi Carti</h5>
-      <p class="card-text">Jordan Terrell Carter, known by his stage name Playboi Carti, is an American rapper, singer and songwriter. Formerly signed to Atlanta-based underground label Awful Records, Carter is currently signed to ASAP Mob's AWGE Label and Interscope Records.</p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted">About Artist</small>
-    <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-  More
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+  <!-- ADD MODAL -->
+  <div class="modal fade" id="add-artist" tabindex="-1" role="dialog" aria-labelledby="add-artist" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Add Artist</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form action="/action_page.php" value="add image">
+            <label for="Picture">Profile Picture:</label>
+          <input type="file" class="form-control" id="Picture" placeholder="Upload your profile image" name="Picture"
+            required>
+            <label for="first_name">First name :</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="last_name">Last name :</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="cell_number">Cell No. :</label><br>
+            <input type="number" id="cell_no" name="cell_no"><br>
+            <label for="email_address">Email :</label><br>
+            <input type="text" id="ename" name="ename"><br><br>
+            <input type="submit" value="Submit">
+            </forms>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark-primary" data-dismiss="modal">Close</button>
+        </div>
       </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-
     </div>
   </div>
 
 
-  <div class="card">
-    <img src="./images/Lil Uzi Vert.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Lil Uzi Vert</h5>
-      <p class="card-text">Symere Woods, known professionally as Lil Uzi Vert, is an American rapper, singer and songwriter. Born and raised in Philadelphia, Lil Uzi gained initial recognition following the release of the commercial ... </p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted">About Artist</small>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-More
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+  <!-- MODAL1 -->
+  <div class="modal fade" id="exampleModalLong1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle1"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Yung Sellino</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Home address: Florida USA America
+          <br>
+          Name: Dwayne Sellan
+          <br>
+          Relationship Status: Michell Givens(Girlfriend)<br>Cell No: (760) 653-5301<br>
+          Email: yungsellino@gmail.com<br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark-primary" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="./images/lilkeed.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Lil Keed</h5>
-      <p class="card-text">Raqhid Jevon Render, known professionally as Lil Keed, is an American rapper, singer and songwriter. He is currently signed to Young Thug's YSL Records and 300 Entertainment. His song "Nameless" reached number 42 on the Billboard Hip Hop/R&B Songs Airplay chart.</p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted">About Artist</small>
-   <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-  More
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+  <!-- MODAL2 -->
+  <div class="modal fade" id="exampleModalLong2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle2"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Frank Jones</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Home address: Compton
+          <br>
+          Name: Fernardo Darmino Jones
+          <br>
+          Relationship Status: Chloe Sams(Girlfriend)<br>Cell No: (412) 287-4922 <br>
+          Email: freddyd@gmail.com<br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark-primary" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-    </div>
-  </div>
-
-
-  <div class="card">
-    <img src="./images/tatts.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">William Taylor</h5>
-      <p class="card-text">Wilingson Willaim Taylor Jnr. (born May 25, 1999), known professionally as William is an American rapper and songwriter. He is best known for his singles including "Wildin'", " LOOSE", "Hop Foreign", "See All You", and "Slope Climbing" featuring Jack Lernt; as well as the DEEP Vol. 1-5 mixtape series...</p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted">About Artist</small>
-    <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-  More
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+  <!-- MODAL3 -->
+  <div class="modal fade" id="exampleModalLong3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle3"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Marly</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Home address: Canada
+          <br>
+          Name: Aubrey Marland Graham
+          <br>
+          Relationship Status: Gabriel Carter(Girlfriend)<br>Cell No: (404) 665-3410<br>
+          Email: marly@gmail.com<br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark-primary" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
+  <!-- MODAL4 -->
+  <div class="modal fade" id="exampleModalLong4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle4"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Jimmy Harns</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Home address: UK
+          <br>
+          Name: Jim Terrell Harns
+          <br>
+          Relationship Status: Mandy Martins(Girlfriend)<br>Cell No: (524) 730-2768<br>
+          Email: jimmyharns@gmail.com<br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark-primary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
     </div>
   </div>
 
+  <!-- MODAL5-->
+  <div class="modal fade" id="exampleModalLong5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle5"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Riley Willirn</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Home address: America
+          <br>
+          Name: Ronald Woods
+          <br>
+          Relationship Status: Zender Jamson(Girlfriend)<br>Cell No: (631) 960-7178<br>
+          Email: rileywillirn@gmail.com<br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark-primary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-</div>
-</div>
+  <!-- MODAL6-->
+  <div class="modal fade" id="exampleModalLong6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle6"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Kyle</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Home address: America
+          <br>
+          Name: Keanan Raqhid Render
+          <br>
+          Relationship Status: Catlin Marther Render<br>Cell No: (631) 960-750<br>
+          Email: kyle@gmail.com<br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark-primary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  <!-- BOOTSTRAP -->
+  <!-- MODAL7 -->
+  <div class="modal fade" id="exampleModalLong7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle7"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">William Taylor</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Home address: America
+          <br>
+          Name: Wilingson William Taylor Jnr
+          <br>
+          Relationship Status: Single<br>Cell No: (917) 475-0053<br>
+          Email: wtaylor@gmail.com<br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark-primary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DELETE MODAL -->
+  <div class="modal fade" id="delete-btn" tabindex="-1" role="dialog" aria-labelledby="delete-btn" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">
+            <h1>Delete !!!</h1>
+          </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h2>Are you sure you want to delete artist ?</h2>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Yes</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </body>
+
 </html>
